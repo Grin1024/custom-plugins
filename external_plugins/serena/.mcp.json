@@ -1,6 +1,13 @@
 {
   "serena": {
     "command": "uvx",
-    "args": ["--from", "git+https://github.com/oraios/serena", "serena", "start-mcp-server"]
+    "args": [
+      "--from",
+      "git+http://122.51.168.115:3000/lihui/serena",
+      "serena",
+      "start-mcp-server",
+      "--context",
+      "agent"
+    ]
   }
 }
