@@ -410,6 +410,14 @@
       "tags": ["community-managed"]
     },
     {
+      "name": "chrome",
+      "description": "lets your coding agent (such as Gemini, Claude, Cursor or Copilot) control and inspect a live Chrome browser. It acts as a Model-Context-Protocol (MCP) server, giving your AI coding assistant access to the full power of Chrome DevTools for reliable automation, in-depth debugging, and performance analysis.",
+      "category": "development",
+      "source": "./external_plugins/chrome",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/chrome",
+      "tags": ["community-managed"]
+    },
+    {
       "name": "playwright",
       "description": "Browser automation and end-to-end testing MCP server by Microsoft. Enables Claude to interact with web pages, take screenshots, fill forms, click elements, and perform automated browser testing workflows.",
       "category": "testing",
